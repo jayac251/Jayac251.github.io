@@ -1,0 +1,221 @@
+/* Reset all */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Main Styling */
+
+html,
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* header */
+
+header {
+    display: block;
+    background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #FFF720 100%);
+    /*border-bottom-right-radius: 15%;*/
+    border-bottom-left-radius: 15%;
+}
+
+
+/*main header*/
+
+#main-header {
+    padding-top: 50px;
+}
+
+.header-contact {
+    margin: 0;
+    padding-left: 100px;
+}
+
+.header-contact ul {
+    float: right;
+    list-style: none;
+}
+
+.header-contact li {
+    display: inline-block;
+    font-family: 'Courgette', cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important
+}
+
+.header-logo {
+    border-radius: 20%;
+    max-width: 70%;
+    min-width: 50%;
+}
+
+
+/* nav bar */
+
+#nav-bar {
+    background: linear-gradient(120deg, #d4fc79 0%, #FFF720 100%, #3CD500 0%);
+    background: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+    color: #fff;
+    overflow: auto;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 25%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav-bar ul {
+    float: right;
+    list-style: none;
+}
+
+#nav-bar li {
+    float: left;
+}
+
+#nav-bar a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+#nav-bar a:hover {
+    background: linear-gradient( 135deg, #FFF720 10%, #49C628 100%);
+    color: green;
+}
+
+
+/* showcase */
+
+#showcase {
+    background: url('../images/banner.jpg') no-repeat top center/cover;
+    height: 550px;
+}
+
+.showcase-content {
+    color: green;
+    text-align: center;
+    padding-top: 160px;
+    padding-left: 550px;
+}
+
+.showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.showcase-content h2 {
+    line-height: 1.4em;
+    font-size: 40px;
+    color: maroon;
+}
+
+.showcase-content h3 {
+    line-height: 1.4em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.text-primary {
+    line-height: 1.4em;
+    font-family: 'Courgette', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.showcase-content a {
+    background: green;
+    height: 40px;
+    width: 110px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.showcase-splash-img {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+}
+
+
+/*about section*/
+
+.bg-green-tile {
+    background: linear-gradient( 135deg, #FFF720 10%, #49C628 100%);
+}
+
+#about-section {
+    height: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info-img {
+    float: right;
+    width: 20%;
+    background: url('/images/sathish.png') no-repeat top center;
+    min-height: 100%;
+}
+
+.info-content h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+/*product section*/
+
+.bg-yellow-tile {
+    background: #FFFFFF;
+}
+
+#products-section h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.product-details {
+    height: 400px;
+}
+
+.box {
+    float: left;
+    width: 295px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+}
+
+#products-section label {
+    display: block;
+    background: #3CD500;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    width: 190px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+/*footer*/
+
+footer {
+    background: linear-gradient( 135deg, #FFF720 10%, #49C628 100%);
+    padding: 20px;
+    padding-bottom: 20px;
+}
