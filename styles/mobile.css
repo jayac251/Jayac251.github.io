@@ -1,0 +1,123 @@
+/* -------------------------------------------------------------------------------------------------------*/
+
+header {
+    height: 38vh;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 2.5rem;
+}
+
+
+/* main header */
+
+.navbar {
+    padding-top: 20px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* main header */
+
+#main-header {
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+}
+
+#contact-box {
+    margin: 0;
+    padding-left: 0;
+}
+
+.contact-box {
+    float: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#header-contact p {
+    width: 100vw;
+    background: linear-gradient( 135deg, #FFF720 10%, #c2f5ae 100%);
+    margin: 10px;
+    padding-left: 10px;
+    text-align: left;
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.header-logo {
+    display: block;
+    max-width: 100vw;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* showcase section */
+
+#showcase-section {
+    height: 60vh;
+    background: url('/images/banner.jpg')no-repeat left top/cover;
+}
+
+.showcase-content {
+    padding-top: 18vh;
+    padding-left: 0;
+}
+
+.showcase-content h1 {
+    padding-top: 10px;
+    font-size: 2.5rem;
+}
+
+.showcase-content h1,
+.showcase-content h2,
+.showcase-content h3 {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(218, 214, 20, 0.651);
+    /* Black w/opacity/see-through */
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* About section */
+
+#about-section {
+    height: 100vh;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* products section */
+
+#products-section {
+    padding-bottom: 70px;
+}
+
+.box {
+    float: left;
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 50%;
+}
+
+.subscribe {
+    padding-left: 20vw;
+}

@@ -1,0 +1,213 @@
+/* Common Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+header {
+    background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #FFF720 100%);
+    border-bottom-left-radius: 15%;
+    height: 25vh;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 3.5rem;
+}
+
+h1 {
+    font-family: 'Courgette', cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.section h2 {
+    padding-top: 40px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* Nav bar */
+
+#nav-bar {
+    padding-right: 40px;
+    background: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+    color: #fff;
+    overflow: auto;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+#nav-bar ul {
+    float: right;
+}
+
+#nav-bar li {
+    float: left;
+}
+
+#nav-bar a {
+    display: block;
+    color: #fff;
+    padding: 8px 10px;
+}
+
+#nav-bar a:hover {
+    background: linear-gradient( 135deg, #eaf737e8 10%, #b6f3a5 100%);
+    color: darkgreen;
+    font-weight: 800;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* main header */
+
+#main-header {
+    padding-top: 5vh;
+}
+
+.contact-box {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 40vw;
+    padding: 10px;
+}
+
+#header-contact {
+    margin: 0;
+    float: right;
+}
+
+#header-contact p {
+    color: darkgreen;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.header-logo {
+    float: left;
+    max-width: 65%;
+}
+
+
+/* -----------------------````````1Qaz,lop--------------------------------------------------------------------------------*/
+
+
+/* showcase section */
+
+#showcase-section {
+    height: 75vh;
+    background: url('/images/banner.jpg')no-repeat center top/cover;
+}
+
+.showcase-content {
+    color: green;
+    text-align: center;
+    padding-top: 25vh;
+    padding-left: 40vw;
+}
+
+.showcase-content h1 {
+    font-size: 4rem;
+    color: maroon;
+    background: transparent;
+}
+
+.showcase-content h3 {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.showcase-content a {
+    background: green;
+    height: 40px;
+    width: 110px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* About section */
+
+.bg-green-tile {
+    background: linear-gradient( 135deg, #FFF720 10%, #49C628 100%);
+}
+
+#about-section {
+    height: 50vh;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------*/
+
+
+/* products section */
+
+.bg-yellow-tile {
+    background: #FFFFFF;
+}
+
+#products-section {
+    height: 90vh;
+}
+
+.product-details {
+    width: 100vw;
+}
+
+.box {
+    float: left;
+    width: 25vw;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+}
+
+.subscribe {
+    padding-left: 40vw;
+}
+
+label {
+    background: darkgreen;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    width: 100vw;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/*footer*/
+
+footer p {
+    font-weight: 800;
+}
